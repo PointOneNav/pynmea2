@@ -1,11 +1,12 @@
 from setuptools import setup
 
-import imp
-_version = imp.load_source("pynmea2._version", "pynmea2/_version.py")
+#import imp
+#_version = imp.load_source("pynmea2._version", "pynmea2/_version.py")
 
 setup(
     name='pynmea2',
-    version=_version.__version__,
+    #version=_version.__version__,
+    version=1.18hack
     author='Tom Flanagan',
     author_email='tom@zkpq.ca',
     license='MIT',
