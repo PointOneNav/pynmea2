@@ -6,7 +6,7 @@ from setuptools import setup
 setup(
     name='pynmea2',
     #version=_version.__version__,
-    version=9.99
+    version='9.99'
     author='Tom Flanagan',
     author_email='tom@zkpq.ca',
     license='MIT',
